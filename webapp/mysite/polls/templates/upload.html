@@ -18,9 +18,9 @@
     <div class="col"></div>
     <div class="col">
       <form method="POST" enctype="multipart/form-data">
-        {% csrf_token %}
-        <label for="formFile" class="form-label"> Image to Process </label>
-        <p><input class="form-control" type="file" name="file1" /></p>
+        {% csrf_token %} {{form.as_p}}
+        <!--<label for="formFile" class="form-label"> Image to Process </label>
+        <p><input class="form-control" type="file" name="file1" /></p>-->
         <button type="submit" class="btn btn-secondary">Submit</button>
       </form>
     </div>

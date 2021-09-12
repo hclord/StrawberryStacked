@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "strawberrystacked",
+  "private_key_id": "8c57b210dc16ecb4f3ec5e23f8af3755e76e7b52",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCwVT02bRd7y+Y8\nKKcIIw+0akYtLmJoQE+lfVWRAlcWx2jxbIjSHVdqmoFAH+f7mZpBHGD0ik4rg9WV\n/wWHy0UvX+kHmq8htiPQJ2n4I5vnFuRpt810HtgGjIykIF4N5OBmDorO9r5I5eC4\nw6dqbDjQYjiK9AXAVlMb40QRU/C3T3uO2cViR7lxKEwJbHSUii0A5IKKGAkAr86q\nRnPWJm/nLVlKcXZHFQ3PUTD5m3rH6LJx29NRxIfh0E59qLH/WNtVrk1ZZOuNCfQz\nPP7rFuR4qt+9u7owhNaDGfx9E2Zg43EWUCbIK9CCrtWqR61jhMEVHjAdt/ycDnaR\nrpSWekbbAgMBAAECggEAFtQKNzQbYLMOjQZETZjgbR5/FFVXdyCwTv/xZnMTnEbX\nrr263tzeltYG2qrmyRtjLX/Di5UmNpr8OU2JRUHLJK15iTr85lPiwg2AOhg+FEZR\n7t/VUO23UO28PXlVQ944MO48CTxHeT+Nfs4RrATzvAKjSFX8MqDaZJdhFg80cD66\nf/ydvHf6KSwVM67wRWypG1HThNfcCfj+YoVw7zq/CKY3a/750KGYamiwalY7oSF0\nfl/HYuLpAKrU+qYUJSgglqTTkiI2LQdXqb6aMwfmDVbYYcNHiWEDzFvkpDb4VchZ\ns4GwNCjdtzX3sI5EnTguk8bQn3dWIg4VYnbcvSchXQKBgQDWXsae2MrCnIKa/2lm\n4rFgUHKKxOt5W6Zzsi7AwzdPIfVQolb5kYZbNSleTte7w7GfERKzbbqm7vNlWePY\nAxyQdyUTK61y9i5pK7SEAV46s1vWjJLKyJt3LMIu7zgRiImaCwC5cfbZ2jphZ0fw\nMNRu7TebxLiiJuiTcC1pwU89xQKBgQDSk3mj7p7YHEE0jcGzbBb4KyyuYpqHaaAl\nxjUS7WivjPRS/uXyeEtlZ7+7hhmxq08PKLdzW8UWn58c11b/wR55dnkby8CqFI5u\nWQGj4ij+VmmFVY7wn4SuTY6U12JaRMF38booFHk/fhZCEZuLq4GazD1InvBen+0i\nXxB/FuNcHwKBgQDEJ3UXZMgjy5K2wX9w5X3o47PrxsSxB2wH8cNWH0s83ZXbcrCj\nLMYEL2DrKrm81hRxuO2jwYRJu9x7oQUbY71/c4Y5RH4x85IEKjnDkHzoubYPXBH1\n/BpFsm79A2gKoyVGD0taZS27qjRBbIAnCIdZ+TYpEpjfxzqJrtvfKUOZAQKBgQCO\nKOmx9mJeW5TZuenPC2XmXJ9piz/vsyte1RT3ljdabLp1XYg3zWZ5KzWRj9LA03oo\nLcDLrGS+BT0R537gYqwELCtOzJthN0eAz63/yasLKaNLVJuPbuHQGqPrcA0CC/Dg\n3NxkOo4wgxrbt69e94Yjz0aARGzaNPWOgsdMRVNw2QKBgQCSrGt/P+oe03HOpqQa\nx3NeLnL/jFSoppYaJ05Ja7/2EZ+kyOIu3maNvUwQM0NRaPURz6xHesqw+dGulBl9\nZ9u2lKZTY2maaBEPXOZluBfIQqV0EKmYB+QTNcHV0NO1ycaZQV96fbDqwsfYdAa+\niZnq+5sya7TVuU8YNIDAuRNcGw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "strawberryseed@strawberrystacked.iam.gserviceaccount.com",
+  "client_id": "114320369502467032012",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/strawberryseed%40strawberrystacked.iam.gserviceaccount.com"
+}

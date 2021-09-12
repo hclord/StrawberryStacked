@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Image</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    {% for image in images %}
+    <div class="col-md-4">
+      <img
+        src="{{ image.image.url }}"
+        class="img-responsive"
+        height="{{ image.image.height }}"
+        style="width: 100%; float: left; margin-right: 10px"
+      />
+    </div>
+
+    <div class="col-md-4">
+      <img
+        src="{{ image.sim_image.url }}"
+        height="{{ image.sim_image.height }}"
+        style="width: 100%; float: left; margin-right: 10px"
+      />
+    </div>
+    {% endfor %} {% for color in bad_colors %}
+    <div class="col-md-4">
+      <p>{{color}}</p>
+    </div>
+    {% endfor %}
+  </body>
+</html>

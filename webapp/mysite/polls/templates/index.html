@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+{% load bootstrap %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <title>Braeburn</title>
+
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    {% load static %}
+    <link href="{% static 'polls/strawberry.css' %}" rel="stylesheet" />
+  </head>
+
+  <body>
+    <main>
+      <div class="px-4 py-5 my-5 text-center">
+        <img
+          class="d-block mx-auto mb-4"
+          src="{% static 'polls/apple.png' %}"
+          alt="{% static 'polls/apple.png' %}"
+          width="15%"
+        />
+        <h1 class="display-5 fw-bold">Braeburn</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Encouraging accessible images for individuals who are colorblind.
+          </p>
+          <br /><br />
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <div class="input-group">
+              <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                <label for="formFile" class="form-label"
+                  >Default file input example</label
+                >
+                <input class="form-control" type="file" id="formFile" />
+                <button
+                  class="btn btn-outline-secondary"
+                  type="submit"
+                  id="inputGroupFileAddon04"
+                >
+                  Upload
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
